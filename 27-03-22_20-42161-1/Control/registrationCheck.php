@@ -10,7 +10,7 @@ if(isset($_POST["Submit"])){
     $address = $_POST["address"];
 
     if(empty($fname) || empty($lname) || empty($age) || empty($salary) || empty($address)){
-        $error = "<br/>Fill up every filed properly to proceed.";
+        $error = "<br/>Fill up every field properly to proceed.";
         echo($error);
     }
 

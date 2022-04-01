@@ -1,4 +1,4 @@
-<? php
+<?php
 
 include ("../Control/ViewDataControl.php");
 
@@ -6,7 +6,7 @@ include ("../Control/ViewDataControl.php");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>View Data Page</title>
 </head>
 <body>
     <form action="" method="post">

@@ -24,11 +24,13 @@ function opencon()
 function insertRow($fname,$lname,$age,$salary,$address,$tablename,$conn){
 
     $insert_command = "INSERT INTO $tablename (fname,lname,age,salary,address) VALUES ('$fname','$lname','$age','$salary','$address')";
-    if ($conn -> query($insert_command) === TRUE) {
-        echo(
-            "<br/>Data insertion completed!<br/>"
-        );
-    }
+    if ($conn->query($insert_command) === TRUE) {
+        echo "New record created successfully";
+      } else {
+        //echo "Error: " . $insert_command . "<br>" . $conn->error;
+        die($conn->error);
+      }
+    
 }
 
 function fetchRow($tablename,$conn){
