@@ -1,0 +1,20 @@
+.formbox{
+    border: 1px solid rgba(red, green, blue, 0.4);
+    border-radius: 25px;
+    box-shadow: 1px 3px 2px 1px grey;
+    padding: 10px;
+    background-color: blanchedalmond;
+    
+}
+.inputsection{
+    margin: 10px;
+    border-style: dashed;
+    border-width: 1px;
+
+}
+.submitbutton{
+    color: darkgreen;
+    background-color: lightseagreen;
+    border: 0px;
+    border-radius: 5px;
+}
